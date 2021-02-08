@@ -1,4 +1,4 @@
-docker build -t docker build -t ivanslavchev/multi-client:latest -t ivanslavchev/multi-client:$SHA -f ./clinet/Dockerfile ./client-f ./client/Dockerfile ./client
+docker build -t ivanslavchev/multi-client:latest -t ivanslavchev/multi-client:$SHA -f ./clinet/Dockerfile ./client
 docker build -t ivanslavchev/multi-server:latest -t ivanslavchev/multi-server:$SHA -f ./server/Dockerfile ./server
 docker build -t ivanslavchev/multi-worker:latest -t ivanslavchev/multi-worker:$SHA -f ./worker/Dockerfile ./worker
 docker push ivanslavchev/multi-client:latest
